@@ -119,6 +119,7 @@ $Sprite.position = Game.size / 2
 file-editor: https://github.com/fenix-hub/godot-engine.file-editor
 input-helper: https://github.com/nathanhoad/godot_input_helper
 monitor_overlay: https://github.com/HungryProton/monitor_overlay
+rand-utils: https://github.com/JulienVanelian/godot-rand-utils
 
 ## Contributors
 
