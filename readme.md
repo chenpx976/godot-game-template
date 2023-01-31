@@ -113,6 +113,12 @@ To learn more about all the features, read the [wiki](https://github.com/crystal
 $Sprite.position = Game.size / 2
 ```
 
+
+## plugin
+
+file-editor: https://github.com/fenix-hub/godot-engine.file-editor
+input-helper: https://github.com/nathanhoad/godot_input_helper
+
 ## Contributors
 
 Many features were implemented only thanks to the help of:

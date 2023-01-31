@@ -2,6 +2,17 @@ extends Node
 
 var elapsed = 0
 
+func _ready() -> void:
+	InputHelper.connect("device_changed", self, "_on_input_device_changed")
+
+
+func _on_input_device_changed(device: String, device_index: int) -> void:
+	print("XBox? ", device == InputHelper.DEVICE_XBOX_CONTROLLER)
+	print("Device index? ", device_index)
+	print("Device name? ", InputHelper.guess_device_name())
+	
+
+
 # `pre_start()` is called when a scene is loaded.
 # Use this function to receive params from `Game.change_scene(params)`.
 func pre_start(params):
