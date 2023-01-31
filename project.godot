@@ -9,6 +9,16 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Control",
+"class": "CSVEditor",
+"language": "GDScript",
+"path": "res://addons/file-editor/scripts/CSVEditor.gd"
+}, {
+"base": "HTTPRequest",
+"class": "GoogleTranslateAPI",
+"language": "GDScript",
+"path": "res://addons/file-editor/scripts/GoogleTranslatorAPI.gd"
+}, {
 "base": "Reference",
 "class": "SceneData",
 "language": "GDScript",
@@ -25,6 +35,8 @@ _global_script_classes=[ {
 "path": "res://addons/game-template/transition/transition.gd"
 } ]
 _global_script_class_icons={
+"CSVEditor": "",
+"GoogleTranslateAPI": "",
 "SceneData": "",
 "Scenes": "",
 "Transition": ""
@@ -44,6 +56,7 @@ config/version="0.0.1"
 Game="*res://addons/game-template/game.gd"
 Transitions="*res://addons/game-template/transition/transition.tscn"
 Utils="*res://addons/game-template/utils.gd"
+LastOpenedFiles="*res://addons/file-editor/scripts/LastOpenedFiles.gd"
 
 [category]
 
@@ -57,7 +70,14 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/game-template/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg" )
+
+[importer_defaults]
+
+csv_translation={
+"compress": true,
+"delimiter": 0
+}
 
 [input]
 
