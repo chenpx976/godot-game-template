@@ -71,7 +71,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/input_helper/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/input_helper/plugin.cfg", "res://addons/monitor_overlay/plugin.cfg" )
 
 [importer_defaults]
 
