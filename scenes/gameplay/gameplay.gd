@@ -25,7 +25,7 @@ func pre_start(params):
 			printt("", key, val)
 	$Sprite.position = Game.size / 2
 	print("Processing...")
-	yield(get_tree().create_timer(2), "timeout")
+	yield(get_tree().create_timer(1), "timeout")
 	print("Done")
 
 
