@@ -9,6 +9,111 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Reference",
+"class": "AnimaAnimationsUtils",
+"language": "GDScript",
+"path": "res://addons/anima/utils/animations.gd"
+}, {
+"base": "Reference",
+"class": "AnimaAwaitableAddChild",
+"language": "GDScript",
+"path": "res://addons/anima/core/deferred_add_child.gd"
+}, {
+"base": "Object",
+"class": "AnimaDeclarationBase",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_base.gd"
+}, {
+"base": "AnimaDeclarationBase",
+"class": "AnimaDeclarationForAnimation",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_for_animation.gd"
+}, {
+"base": "AnimaDeclarationBase",
+"class": "AnimaDeclarationForProperty",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_for_property.gd"
+}, {
+"base": "AnimaDeclarationBase",
+"class": "AnimaDeclarationForRelativeProperty",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_for_relative_property.gd"
+}, {
+"base": "AnimaDeclarationNode",
+"class": "AnimaDeclarationGrid",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_grid.gd"
+}, {
+"base": "AnimaDeclarationNode",
+"class": "AnimaDeclarationGroup",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_group.gd"
+}, {
+"base": "Reference",
+"class": "AnimaDeclarationNode",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_node.gd"
+}, {
+"base": "Reference",
+"class": "AnimaDeclarationNodes",
+"language": "GDScript",
+"path": "res://addons/anima/core/declaration/anima_declaration_nodes.gd"
+}, {
+"base": "Reference",
+"class": "AnimaEasing",
+"language": "GDScript",
+"path": "res://addons/anima/core/easings.gd"
+}, {
+"base": "Node",
+"class": "AnimaKeyframesEngine",
+"language": "GDScript",
+"path": "res://addons/anima/core/keyframes-engine.gd"
+}, {
+"base": "Node",
+"class": "AnimaNode",
+"language": "GDScript",
+"path": "res://addons/anima/core/anima_node.gd"
+}, {
+"base": "Reference",
+"class": "AnimaNodesProperties",
+"language": "GDScript",
+"path": "res://addons/anima/utils/node_properties.gd"
+}, {
+"base": "Node",
+"class": "AnimaPlayer",
+"language": "GDScript",
+"path": "res://addons/anima/core/player.gd"
+}, {
+"base": "Object",
+"class": "AnimaPropertyList",
+"language": "GDScript",
+"path": "res://addons/anima/utils/anima_properties_list.gd"
+}, {
+"base": "Reference",
+"class": "AnimaStrings",
+"language": "GDScript",
+"path": "res://addons/anima/utils/strings.gd"
+}, {
+"base": "Tween",
+"class": "AnimaTween",
+"language": "GDScript",
+"path": "res://addons/anima/core/tween.gd"
+}, {
+"base": "Reference",
+"class": "AnimaTweenUtils",
+"language": "GDScript",
+"path": "res://addons/anima/utils/tween_utils.gd"
+}, {
+"base": "Node",
+"class": "AnimaVisualNode",
+"language": "GDScript",
+"path": "res://addons/anima/core/visual_node.gd"
+}, {
+"base": "LineEdit",
+"class": "BaseInput",
+"language": "GDScript",
+"path": "res://addons/GGS/src/base_classes/base_input.gd"
+}, {
 "base": "Control",
 "class": "CSVEditor",
 "language": "GDScript",
@@ -19,10 +124,60 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/project_map/pm_common_node.gd"
 }, {
+"base": "Button",
+"class": "ControllerButton",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Button.gd"
+}, {
+"base": "Node",
+"class": "ControllerMapper",
+"language": "GDScript",
+"path": "res://addons/controller_icons/Mapper.gd"
+}, {
+"base": "Resource",
+"class": "ControllerSettings",
+"language": "GDScript",
+"path": "res://addons/controller_icons/Settings.gd"
+}, {
+"base": "Sprite",
+"class": "ControllerSprite",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Sprite.gd"
+}, {
+"base": "Sprite3D",
+"class": "ControllerSprite3D",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/Sprite3D.gd"
+}, {
+"base": "TextureRect",
+"class": "ControllerTextureRect",
+"language": "GDScript",
+"path": "res://addons/controller_icons/objects/TextureRect.gd"
+}, {
+"base": "Node",
+"class": "GGSUtils",
+"language": "GDScript",
+"path": "res://addons/GGS/src/utils.gd"
+}, {
 "base": "HTTPRequest",
 "class": "GoogleTranslateAPI",
 "language": "GDScript",
 "path": "res://addons/file-editor/scripts/GoogleTranslatorAPI.gd"
+}, {
+"base": "Reference",
+"class": "GutHookScript",
+"language": "GDScript",
+"path": "res://addons/gut/hook_script.gd"
+}, {
+"base": "Node",
+"class": "GutTest",
+"language": "GDScript",
+"path": "res://addons/gut/test.gd"
+}, {
+"base": "Reference",
+"class": "JSONBeautifier",
+"language": "GDScript",
+"path": "res://addons/GGS/_depedencies/json_beautifier/json_beautifier.gd"
 }, {
 "base": "Resource",
 "class": "RandUtils",
@@ -45,9 +200,40 @@ _global_script_classes=[ {
 "path": "res://addons/game-template/transition/transition.gd"
 } ]
 _global_script_class_icons={
+"AnimaAnimationsUtils": "",
+"AnimaAwaitableAddChild": "",
+"AnimaDeclarationBase": "",
+"AnimaDeclarationForAnimation": "",
+"AnimaDeclarationForProperty": "",
+"AnimaDeclarationForRelativeProperty": "",
+"AnimaDeclarationGrid": "",
+"AnimaDeclarationGroup": "",
+"AnimaDeclarationNode": "",
+"AnimaDeclarationNodes": "",
+"AnimaEasing": "",
+"AnimaKeyframesEngine": "",
+"AnimaNode": "",
+"AnimaNodesProperties": "",
+"AnimaPlayer": "",
+"AnimaPropertyList": "",
+"AnimaStrings": "",
+"AnimaTween": "",
+"AnimaTweenUtils": "",
+"AnimaVisualNode": "",
+"BaseInput": "",
 "CSVEditor": "",
 "CommonNode": "",
+"ControllerButton": "",
+"ControllerMapper": "",
+"ControllerSettings": "",
+"ControllerSprite": "",
+"ControllerSprite3D": "",
+"ControllerTextureRect": "",
+"GGSUtils": "",
 "GoogleTranslateAPI": "",
+"GutHookScript": "",
+"GutTest": "",
+"JSONBeautifier": "",
 "RandUtils": "",
 "SceneData": "",
 "Scenes": "",
@@ -70,6 +256,9 @@ Transitions="*res://addons/game-template/transition/transition.tscn"
 Utils="*res://addons/game-template/utils.gd"
 LastOpenedFiles="*res://addons/file-editor/scripts/LastOpenedFiles.gd"
 InputHelper="*res://addons/input_helper/input_helper.gd"
+ggsManager="*res://addons/GGS/src/ggs_manager.gd"
+InputBuffer="*res://singleton/input_buffer.gd"
+ControllerIcons="*res://addons/controller_icons/ControllerIcons.gd"
 
 [category]
 
@@ -83,7 +272,7 @@ window/stretch/aspect="expand"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/SingletonScriptsShortcut/plugin.cfg", "res://addons/animation_frame_picker/plugin.cfg", "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/input_helper/plugin.cfg", "res://addons/monitor_overlay/plugin.cfg", "res://addons/project_map/plugin.cfg", "res://addons/rand_utils/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/FlexContainer/plugin.cfg", "res://addons/GGS/plugin.cfg", "res://addons/SingletonScriptsShortcut/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/input_helper/plugin.cfg", "res://addons/monitor_overlay/plugin.cfg", "res://addons/project_map/plugin.cfg", "res://addons/rand_utils/plugin.cfg" )
 
 [importer_defaults]
 
