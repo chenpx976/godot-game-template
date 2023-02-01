@@ -34,6 +34,7 @@ func start():
 	print("gameplay.gd: start() called")
 
 
+
 func _process(delta):
 	elapsed += delta
 	$Sprite.position.x = Game.size.x / 2 + 150 * sin(2 * 0.4 * PI * elapsed)
