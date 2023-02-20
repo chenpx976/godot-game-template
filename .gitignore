@@ -12,3 +12,8 @@ builds
 
 # OSX 
 .DS_Store
+
+.import
+.assets
+*.*.import
+

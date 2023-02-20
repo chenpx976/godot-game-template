@@ -321,7 +321,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/GGS/plugin.cfg", "res://addons/SingletonScriptsShortcut/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/hyperlog/plugin.cfg", "res://addons/imrp/plugin.cfg", "res://addons/input_helper/plugin.cfg", "res://addons/monitor_overlay/plugin.cfg", "res://addons/project_map/plugin.cfg", "res://addons/rand_utils/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/SingletonScriptsShortcut/plugin.cfg", "res://addons/controller_icons/plugin.cfg", "res://addons/file-editor/plugin.cfg", "res://addons/game-template/plugin.cfg", "res://addons/gd-sheets/plugin.cfg", "res://addons/hyperlog/plugin.cfg", "res://addons/imrp/plugin.cfg", "res://addons/input_helper/plugin.cfg", "res://addons/monitor_overlay/plugin.cfg", "res://addons/project_map/plugin.cfg", "res://addons/rand_utils/plugin.cfg" )
 
 [importer_defaults]
 
